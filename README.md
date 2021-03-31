@@ -1,2 +1,2 @@
 # Snake Game
-Creating a "Snake" game with Python
+Creating a "Snake" game with Python Turtles
