@@ -104,6 +104,9 @@ def CheckWall():
         for i in snake:
             i.goto(1000,1000)
         snake.clear()
+        # Clear the apple
+        ap.goto(1500, 1000)
+        ap.clear()
         # Show buttons
         ex.showturtle()
         res.showturtle()
@@ -122,6 +125,9 @@ def CheckHead():
             for i in snake:
                 i.goto(1000,1000)
             snake.clear()
+            # Clear the apple
+            ap.goto(1500, 1000)
+            ap.clear()
             # Show buttons
             ex.showturtle()
             res.showturtle()
@@ -181,6 +187,8 @@ def restartGame(x,y):
     # Rest score
     sc = 0
     updateScore()
+    # Locate apple
+    locateap()
     # Fix Bug
     NewSnake()
 
