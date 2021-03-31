@@ -5,12 +5,12 @@ Creating a "Snake" game with Python Turtles
 
 
 # Files u need:
-- main file
+- main file:
 snake.py
-- winsound module
+- winsound module:
 playsound.py
-- images
-exit.gif
+- images:
+exit.gif,
 restart.gif
-- sound
+- sound:
 eat.wav
